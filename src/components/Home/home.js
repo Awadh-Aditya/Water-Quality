@@ -161,7 +161,7 @@ class Home extends React.Component {
                     <Link to="/">
                         <div id="box" data-aos="fade-right">
                             <div id="heading">
-                                <h2>Temp.</h2>
+                                <h2>Temperature</h2>
                                 <h3> {this.state.liveData.Temperature} <span>°C</span></h3>
                             </div>
                         </div>
@@ -174,8 +174,8 @@ class Home extends React.Component {
                     <Link to="/">
                         <div id="box" data-aos="fade-left">
                             <div id="heading">
-                                <h2>Electrical Conductivity</h2>
-                                <h3> {this.state.liveData.Electroconductivity}<span>mS/cm</span></h3>
+                                <h2>EC</h2>
+                                <h3> {this.state.liveData.Electroconductivity} <span>mS/cm</span></h3>
                             </div>
                         </div>
                     </Link>
