@@ -128,7 +128,7 @@ class Home extends React.Component {
                         <div id="box" data-aos="fade-right">
                             <div id="heading">
                                 <h2>Timestamp</h2>
-                                <h3> {this.state.liveData.Time_stamp} <span>°C</span></h3>
+                                <h3> {this.state.liveData.Time_stamp} <span> </span></h3>
                             </div>
                         </div>
                     </Link>
