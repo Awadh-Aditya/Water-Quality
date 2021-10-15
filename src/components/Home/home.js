@@ -137,7 +137,7 @@ class Home extends React.Component {
                     <Link to="/" >
                         <div id="box" data-aos="zoom-out">
                             <div id="heading">
-                                <h2>PH </h2>
+                                <h2>pH </h2>
                                 <h3>{this.state.liveData.pH}</h3>
                             </div>
                         </div>
@@ -149,7 +149,7 @@ class Home extends React.Component {
                         <div id="box" data-aos="zoom-out">
                             <div id="heading">
                                 <h2>TDS </h2>
-                                <h3> {this.state.liveData.TDS} <span id="c">PPM</span></h3>
+                                <h3> {this.state.liveData.TDS} <span id="c">ppm</span></h3>
                             </div>
                         </div>
                     </Link>
@@ -174,8 +174,8 @@ class Home extends React.Component {
                     <Link to="/">
                         <div id="box" data-aos="fade-left">
                             <div id="heading">
-                                <h2>Electroconductivity</h2>
-                                <h3> {this.state.liveData.Electroconductivity}</h3>
+                                <h2>Electrical Conductivity</h2>
+                                <h3> {this.state.liveData.Electroconductivity}<span>mS/cm</span></h3>
                             </div>
                         </div>
                     </Link>
