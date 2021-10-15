@@ -171,7 +171,7 @@ class Home extends React.Component {
 
 
                 <div className="col-sm-3 col-md-3 col-6">
-                    <Link to="/cond">
+                    <Link to="/">
                         <div id="box" data-aos="fade-left">
                             <div id="heading">
                                 <h2>Electroconductivity</h2>
