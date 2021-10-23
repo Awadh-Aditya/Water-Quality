@@ -128,7 +128,7 @@ class Home extends React.Component {
                         <div id="box" data-aos="fade-right">
                             <div id="heading">
                                 <h2>Timestamp</h2>
-                                <h3> {this.state.liveData.Time_stamp} <span> </span></h3>
+                                <h3> {this.state.liveData.Time_stamp} </h3>
                             </div>
                         </div>
                     </Link>
@@ -137,7 +137,7 @@ class Home extends React.Component {
                     <Link to="/" >
                         <div id="box" data-aos="zoom-out">
                             <div id="heading">
-                                <h2>pH </h2>
+                                <h2>PH </h2>
                                 <h3>{this.state.liveData.pH}</h3>
                             </div>
                         </div>
@@ -161,7 +161,7 @@ class Home extends React.Component {
                     <Link to="/">
                         <div id="box" data-aos="fade-right">
                             <div id="heading">
-                                <h2>Temperature</h2>
+                                <h2>Temp.</h2>
                                 <h3> {this.state.liveData.Temperature} <span>°C</span></h3>
                             </div>
                         </div>
@@ -176,6 +176,32 @@ class Home extends React.Component {
                             <div id="heading">
                                 <h2>EC</h2>
                                 <h3> {this.state.liveData.Electroconductivity} <span>mS/cm</span></h3>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+
+                <div className="col-sm-3 col-md-3 col-6">
+                    
+                </div>
+
+                <div className="col-sm-3 col-md-3 col-6">
+                    <Link to="/">
+                        <div id="box" data-aos="fade-right">
+                            <div id="heading">
+                                <h2>BOD</h2>
+                                <h3> {this.state.liveData.BOD} <span>mg/L</span></h3>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+
+                <div className="col-sm-3 col-md-3 col-6">
+                    <Link to="/">
+                        <div id="box" data-aos="fade-right">
+                            <div id="heading">
+                                <h2>COD</h2>
+                                <h3> {this.state.liveData.COD} <span>mg/L</span></h3>
                             </div>
                         </div>
                     </Link>
